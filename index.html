@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allison Magaly XV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+
+</head>
+
+<body>
+
+    <audio autoplay>
+        <source src="tu_cancion.mp3" type="audio/mpeg">
+        
+    </audio>
+
+    <div class="header">
+        <h1>Allison Magaly</h1><img src="/assets/corazon.gif" alt="corazon">
+    </div>
+    <section class="box">
+        <video src="/assets/sea2.mp4" autoplay muted loop></video>
+
+        <p>"Dios es nuestro amparo y nuestra fortaleza, nuestra ayuda segura en momentos de angustia."<b> - Salmo
+                46:1</b></p>
+        <a class="boxBtn" href="#">MIs XV</a>
+    </section>
+    <div class="invitacion-container">
+        <img src="/assets/Invitacionmisa.png" alt="invitacion">
+    </div>
+    <div class="contenedor">
+        <div class="carousel">
+            <div class="slide">
+                <img src="/assets/img1.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="/assets/img2.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide">
+                <img src="/assets/img4.jpg" alt="Imagen 3">
+            </div>
+
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <div class="invitacion-container">
+
+            <img src="/assets/Invitacioncomida.png" alt="invitacion">
+
+        </div>
+        <div class="contenedor">
+
+            <div class="contenedor">
+                <div class="texto">
+                    <h4>"¡La cuenta regresiva ha comenzado! Mis XV años se acercan y quiero que formes parte de esta
+                        celebración
+                        única."</h4>
+                    <p class="fecha">11 de Mayo del 2024</p>
+                    <br>
+                    <p>Guarda esta fecha</p>
+                </div>
+            </div>
+            <div>
+                <h1 id="contador-text">Tiempo restante para mis XV: </h1>
+                <br>
+                <h1 id="contador"></h1>
+
+                <script src="/js/contador.js"></script>
+                <script src="/js/slider.js"></script>
+            </div>
+            <div class="footer-container">
+                "¡Estoy ansiosa por celebrar este momento único en mi vida contigo! ¡Nos vemos en mi fiesta de XV años!"
+            </div>
+
+</body>
+
+</html>
