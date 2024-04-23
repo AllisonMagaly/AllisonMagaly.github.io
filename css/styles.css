@@ -233,9 +233,10 @@ button {
   bottom: 0;
   width: 100%;
   background-color: #063C04;
-  text-align: start;
+  text-align: center;
   padding: 20px 0;
   font-size: 13px;
   font-family: 'Roboto', sans-serif;
-  padding-left: 6px;
+  padding-left: 7px;
+ 
 }
